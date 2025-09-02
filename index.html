@@ -4,76 +4,174 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Fonte Roboto -->
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
-
-    <title>Portfolio - Carlos Bahia</title>
+    <title>Carlos Bahia - Portfolio</title>
 </head>
 <body>
-    
-    <!-- Navegação -->
-    <nav class="navegacao">
-        <ul class="nav-list">
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Sobre</a>
-            </li>
-            <li>
-                <a href="#">Projetos</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- Fim Navegação -->
 
-    <!-- Home -->
+    <!-- Header -->
+    <header>
+        <h1>Carlos Bahia - Portfólio</h1>
+        <nav>
+            <ul>
+                <li>Início</li>
+                <li>Sobre</li>
+                <li>Serviços</li>
+                <li>Projetos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fim Header -->
+
+    <!-- Home-->
     <section class="home" id="home">
         <div>
+            <h2>Desenvolvedor Full Stack</h2>
             <h1>Carlos Bahia</h1>
-            <p>SEJA BEM VINDO AO MEU PORTFOLIO!</p>
+            <div class="line"></div>
+            <p>Sou Desenvolvedor Full Stack com experiência em React.js, Next.js e TypeScript no Frontend e Node.js/NestJS no Backend. Também atuo com React Native para desenvolvimento mobile e integrações reais com Firebase e APIs REST. Tenho foco em criar aplicações modernas, escaláveis e com ótima experiência para o usuário.</p>
         </div>
+        <img src="#" alt="Foto Eu">
     </section>
     <!-- Fim Home -->
 
-    <!-- Sobre -->
-    <section class="sobre" id="sobre">
+    <!-- About -->
+    <section class="about" id="about">
         <div>
             <h2>Sobre</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro minus enim dolor quam natus nobis eligendi illo ex, soluta animi vel at quod sunt consequatur explicabo dolorum recusandae odio! Quo!
-            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro minus enim dolor quam natus nobis eligendi illo ex, soluta animi vel at quod sunt consequatur explicabo dolorum recusandae odio! Quo!</p>
+            <p>Texto aqui</p>
         </div>
-        <img src="images/foto-pc.png" alt="Foto minha programando">
+        <img src="#" alt="Imagem Eu">
     </section>
-    <!-- Fim Sobre -->
-    
-    <!-- Projetos -->
-    <section class="projetos" id="projetos">
+    <!-- Fim About -->
+
+    <!-- Services -->
+    <section class="services" id="services">
         <div>
-            <h2>Projetos</h2>
-            <p>Conheça um pouço meus projetos</p>
+            <h2>Serviços</h2>
+            <p>Ofereço soluções digitais completas, desde o desenvolvimento de websites modernos até aplicativos funcionais e intuitivos. Também crio designs personalizados para garantir interfaces atrativas e fáceis de usar, sempre focadas na melhor experiência para o usuário.</p>
         </div>
-        <div>
-            <img src="images/projeto1.png" alt="foto 1">
-            <img src="images/projeto2.png" alt="foto 2">
-            <img src="images/projeto3.png" alt="foto 3">
-        </div>
-        <div>
-            <img src="images/projeto2.png" alt="foto 2">
-            <img src="images/projeto3.png" alt="foto 3">
-            <img src="images/projeto1.png" alt="foto 1">
+
+        <div class="grid-services">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="" alt="Imagem representando o serviço">
+                <div class="content">
+                    <h3>Serviço oferecido</h3>
+                    <p>Quantidade de serviços feitos</p>
+                </div>
+            </div>    
         </div>
     </section>
-    <!-- Fim Projetos -->
-    
-    <!-- Footer -->
-    <footer>
-        <p>Todos os direitos reservados ao site</p>
-    </footer>
-    <!-- Fim Footer -->
+    <!-- Fim Services -->
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h2>Projetos</h2>
+        <!-- Linha de Projetos 1 -->
+        <div class="grid-projects">
+            
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="#" alt="foto da aplicação">
+                <div class="content">
+                    <h3>Nome da Aplicação</h3>
+                    <p>Plataforma</p>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="#" alt="foto da aplicação">
+                <div class="content">
+                    <h3>Nome da Aplicação</h3>
+                    <p>Plataforma</p>
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="#" alt="foto da aplicação">
+                <div class="content">
+                    <h3>Nome da Aplicação</h3>
+                    <p>Plataforma</p>
+                </div>
+            </div>
+        </div>    
+
+        <!-- Linha de Projetos 2 -->
+        <div class="grid-projects">
+
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="#" alt="foto da aplicação">
+                <div class="content">
+                    <h3>Nome da Aplicação</h3>
+                    <p>Plataforma</p>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="#" alt="foto da aplicação">
+                <div class="content">
+                    <h3>Nome da Aplicação</h3>
+                    <p>Plataforma</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="#" alt="foto da aplicação">
+                <div class="content">
+                    <h3>Nome da Aplicação</h3>
+                    <p>Plataforma</p>
+                </div>
+            </div>
+
+        </div>    
+    </section>
+    <!-- Fim Projects -->
+
+    <!-- Contacts -->
+    <section class="contact" id="contact">
+        <h2>Meus Contatos</h2>
+        <div class="contatos">
+            <div class="whatsapp">
+                <img src="#" alt="Whatsapp Icon">
+                <div class="conteudo">
+                    <h3>Whatsapp</h3>
+                    <p>Numero para contato</p>
+                </div>
+            </div>
+            <div class="email">
+                <img src="#" alt="Email Icon">
+                <div class="conteudo">
+                    <h3>Email</h3>
+                    <p>Email para contato</p>
+                </div>
+            </div>
+            <div class="linkedin">
+                <img src="#" alt="LinkedIn Icon">
+                <div class="conteudo">
+                    <h3>LinkedIn</h3>
+                    <p>Link do LinkedIn</p>
+                </div>
+            </div>
+            <div class="github">
+                <img src="#" alt="GitHub Icon">
+                <div class="conteudo">
+                    <h3>GitHub</h3>
+                    <p>Link do GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Contacts -->
 </body>
 </html>
