@@ -25,11 +25,19 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    border: 1px solid rgba(255,255,255,0.1);
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
 }
 
 header h1{
     font-size: 30px;
-    margin-left: 80px;
+    margin-left: 2.604vw;
     
     color: #E5E5E5;
     text-transform: lowercase;
@@ -39,6 +47,10 @@ header span{
     color: #F8E7A1;
     font-weight: 300;
     text-transform: lowercase;
+}
+
+nav{
+    margin-right: 1.82vw;
 }
 
 nav ul{
@@ -51,4 +63,40 @@ nav a{
     text-decoration: none;
     color: #FFFFFF70;
     padding: 15px;
+    font-size: 17px;
+    transition: 0.4s;
 }
+
+nav a:hover{
+    color: #FFF;
+    font-size: 19px;
+}
+/* Fim Header */
+
+
+
+/* Home */
+.home{
+    width: 100%;
+    height: calc(100vh - 80px);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home .grid-1{
+    color: #E5E5E5;
+    padding-left: 2.604vw;
+    padding-right: 25px;
+    width: 50vw;
+}
+
+.home .grid-2{
+    width: calc(50vw - 25px - 2.604vw);
+    height: 50vh;
+    background-color: #E5E5E5;
+    margin-left: 25px;
+    margin-right: 2.604vw;
+}
+
