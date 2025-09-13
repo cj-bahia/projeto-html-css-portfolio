@@ -7,7 +7,10 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: url(images/background-body.png);
     background-color: #030E21;
+    background-size: 100vw;
+    background-repeat: no-repeat;
 }
 
 html{
@@ -100,3 +103,16 @@ nav a:hover{
     margin-right: 2.604vw;
 }
 
+.home h2{
+    color: #868490;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.home .line{
+    height: 8px;
+    width: 183px;
+
+    background-color: #F8E7A1;
+    border-radius: 2.5px;
+}
