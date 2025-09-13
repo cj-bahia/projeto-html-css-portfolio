@@ -95,24 +95,39 @@ nav a:hover{
     width: 50vw;
 }
 
+.home h2{
+    color: #868490;
+    font-size: 2.448vw;
+    font-weight: 500;
+}
+
+.home h1{
+    margin-top: 12px;
+    font-size: 4.167vw;
+}
+
+.home .line{
+    height: 5px;
+    width: 14.323vw;
+    
+    background-color: #F8E7A1;
+    border-radius: 2.5px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.home p{
+    width: 31.27vw;
+    font-size: calc(18px + (2 * ((100vw - 1144px) / 776)));
+    /* font-size: clamp(18px, calc(11.052px + 0.4167vw), 20px); */
+    /* font-size: 18px; */
+}
+
 .home .grid-2{
     width: calc(50vw - 25px - 2.604vw);
     height: 50vh;
     background-color: #E5E5E5;
     margin-left: 25px;
     margin-right: 2.604vw;
-}
-
-.home h2{
-    color: #868490;
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-.home .line{
-    height: 8px;
-    width: 183px;
-
-    background-color: #F8E7A1;
-    border-radius: 2.5px;
 }
